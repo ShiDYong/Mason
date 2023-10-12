@@ -346,7 +346,7 @@ Status CreateList_Head(LinkList *L, int n, char *path) {
         }
 
     } else {
-        //打开文件，准备读取测试数据
+        //打开文件，准备读取测试数据,注意这里要决定路径
         fp = fopen(path, "r");
         if (fp == NULL) return ERROR;
         //建立头结点

@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.9921.42/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.9921.42/CLion.app/Contents/bin/cmake/mac/bin/cpack"
+			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/cmake/mac/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.9921.42/CLion.app/Contents/bin/cmake/mac/bin/ctest"
+			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/cmake/mac/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
@@ -499,7 +499,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.9921.42/CLion.app/Contents/bin/ninja/mac/ninja"
+			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/ninja/mac/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -767,7 +767,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.9921.42/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26"
+			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
