@@ -33,7 +33,11 @@ rule C_COMPILER__Scanf_lib_Debug
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__Scanf_lib_Debug
+<<<<<<< HEAD
   command = $PRE_LINK && /usr/local/clion-2022.3.3/bin/cmake/linux/x64/bin/cmake -E rm -f $TARGET_FILE && /usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /usr/bin/ranlib $TARGET_FILE && $POST_BUILD
+=======
+  command = $PRE_LINK && /Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f $TARGET_FILE && /Library/Developer/CommandLineTools/usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /Library/Developer/CommandLineTools/usr/bin/ranlib $TARGET_FILE && /Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/cmake/mac/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+>>>>>>> 13cd568f0ec123067d4aadabe56169f944a0f485
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -118,7 +122,11 @@ rule C_EXECUTABLE_LINKER__LinkList_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
+<<<<<<< HEAD
   command = /usr/local/clion-2022.3.3/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/export/c_project/mason -B/export/c_project/mason/cmake-build-debug
+=======
+  command = /Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/yongshi/Downloads/MyCode/mason -B/Users/yongshi/Downloads/MyCode/mason/cmake-build-debug
+>>>>>>> 13cd568f0ec123067d4aadabe56169f944a0f485
   description = Re-running CMake...
   generator = 1
 
@@ -127,7 +135,11 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
+<<<<<<< HEAD
   command = /usr/local/clion-2022.3.3/bin/ninja/linux/x64/ninja $FILE_ARG -t clean $TARGETS
+=======
+  command = /Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/ninja/mac/ninja $FILE_ARG -t clean $TARGETS
+>>>>>>> 13cd568f0ec123067d4aadabe56169f944a0f485
   description = Cleaning all built files...
 
 
@@ -135,6 +147,10 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
+<<<<<<< HEAD
   command = /usr/local/clion-2022.3.3/bin/ninja/linux/x64/ninja -t targets
+=======
+  command = /Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/ninja/mac/ninja -t targets
+>>>>>>> 13cd568f0ec123067d4aadabe56169f944a0f485
   description = All primary targets available:
 
