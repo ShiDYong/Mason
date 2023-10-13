@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "structures/0203_MergeSqList/MergeSqList"
+			"path" : "structures/0202_Union/Union"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +16,7 @@
 		],
 		"files" : 
 		[
-			"structures/0203_MergeSqList/CMakeLists.txt"
+			"structures/0202_Union/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -49,14 +49,17 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu90 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics"
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu90"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/Users/yongshi/Downloads/MyCode/mason/Status"
+					"path" : "/export/c_project/mason/Status"
 				}
 			],
 			"language" : "C",
@@ -83,7 +86,7 @@
 			"id" : "Scanf_lib::@fe314c4577536ad9eb12"
 		}
 	],
-	"id" : "MergeSqList::@6a458a4995808062c458",
+	"id" : "Union::@7b0b17a944ab12ba34f5",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -104,12 +107,12 @@
 		],
 		"language" : "C"
 	},
-	"name" : "MergeSqList",
-	"nameOnDisk" : "MergeSqList",
+	"name" : "Union",
+	"nameOnDisk" : "Union",
 	"paths" : 
 	{
-		"build" : "structures/0203_MergeSqList",
-		"source" : "structures/0203_MergeSqList"
+		"build" : "structures/0202_Union",
+		"source" : "structures/0202_Union"
 	},
 	"sourceGroups" : 
 	[
@@ -135,30 +138,30 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "structures/0203_MergeSqList/SqList.h",
+			"path" : "structures/0202_Union/SqList.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "structures/0203_MergeSqList/SqList.c",
+			"path" : "structures/0202_Union/SqList.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "structures/0203_MergeSqList/MergeSqList.h",
+			"path" : "structures/0202_Union/Union.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "structures/0203_MergeSqList/MergeSqList.c",
+			"path" : "structures/0202_Union/Union.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "structures/0203_MergeSqList/MergeSqList-main.c",
+			"path" : "structures/0202_Union/Union-main.c",
 			"sourceGroupIndex" : 1
 		}
 	],

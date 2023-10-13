@@ -143,35 +143,35 @@
 				{
 					"directoryIndex" : 6,
 					"id" : "LinkList::@77937bce89e55d13ab93",
-					"jsonFile" : "target-LinkList-Debug-a873dfe1e3c56f0a2050.json",
+					"jsonFile" : "target-LinkList-Debug-6fed631e625d90adfbfe.json",
 					"name" : "LinkList",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 5,
 					"id" : "MergeSqList::@6a458a4995808062c458",
-					"jsonFile" : "target-MergeSqList-Debug-923ccc381970fb162d5a.json",
+					"jsonFile" : "target-MergeSqList-Debug-36fbaf69ad4d644d846a.json",
 					"name" : "MergeSqList",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "Scanf_lib::@fe314c4577536ad9eb12",
-					"jsonFile" : "target-Scanf_lib-Debug-e608fc046b301365db55.json",
+					"jsonFile" : "target-Scanf_lib-Debug-bd6a7b2d006ef48e38ba.json",
 					"name" : "Scanf_lib",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 3,
 					"id" : "SqList::@4d217577f4460a550419",
-					"jsonFile" : "target-SqList-Debug-ca55dee11b7394fdc241.json",
+					"jsonFile" : "target-SqList-Debug-c633b2fdad144e9bd699.json",
 					"name" : "SqList",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "Union::@7b0b17a944ab12ba34f5",
-					"jsonFile" : "target-Union-Debug-7e90311cac92a4efd47b.json",
+					"jsonFile" : "target-Union-Debug-53b7b909ba711562de9b.json",
 					"name" : "Union",
 					"projectIndex" : 0
 				}
@@ -181,12 +181,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/yongshi/Downloads/MyCode/mason/cmake-build-debug",
-		"source" : "/Users/yongshi/Downloads/MyCode/mason"
+		"build" : "/export/c_project/mason/cmake-build-debug",
+		"source" : "/export/c_project/mason"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 4
 	}
 }

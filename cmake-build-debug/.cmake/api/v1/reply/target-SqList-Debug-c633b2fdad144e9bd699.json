@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "structures/0204_LinkList_01/LinkList"
+			"path" : "structures/0201_SqList/SqList"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +16,7 @@
 		],
 		"files" : 
 		[
-			"structures/0204_LinkList_01/CMakeLists.txt"
+			"structures/0201_SqList/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -49,14 +49,17 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu90 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics"
+					"fragment" : "-g -fdiagnostics-color=always"
+				},
+				{
+					"fragment" : "-std=gnu90"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/Users/yongshi/Downloads/MyCode/mason/Status"
+					"path" : "/export/c_project/mason/Status"
 				}
 			],
 			"language" : "C",
@@ -82,7 +85,7 @@
 			"id" : "Scanf_lib::@fe314c4577536ad9eb12"
 		}
 	],
-	"id" : "LinkList::@77937bce89e55d13ab93",
+	"id" : "SqList::@4d217577f4460a550419",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -103,12 +106,12 @@
 		],
 		"language" : "C"
 	},
-	"name" : "LinkList",
-	"nameOnDisk" : "LinkList",
+	"name" : "SqList",
+	"nameOnDisk" : "SqList",
 	"paths" : 
 	{
-		"build" : "structures/0204_LinkList_01",
-		"source" : "structures/0204_LinkList_01"
+		"build" : "structures/0201_SqList",
+		"source" : "structures/0201_SqList"
 	},
 	"sourceGroups" : 
 	[
@@ -132,19 +135,19 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "structures/0204_LinkList_01/LinkList.h",
+			"path" : "structures/0201_SqList/SqList.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "structures/0204_LinkList_01/LinkList.c",
+			"path" : "structures/0201_SqList/SqList.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "structures/0204_LinkList_01/LinkList-01-main.c",
+			"path" : "structures/0201_SqList/SqList-main.c",
 			"sourceGroupIndex" : 1
 		}
 	],
