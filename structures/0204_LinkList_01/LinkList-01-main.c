@@ -141,9 +141,20 @@ int main(int argc, char **argv) {
     printf("████████ CreateList_Head \n");
     {
         LinkList L;
-       const char *filename = "/Users/yongshi/Downloads/MyCode/mason/structures/0204_LinkList_01/TestData_Head.txt";
+       const char *filename = "/export/c_project/mason/structures/0204_LinkList_01/TestData_Head.txt";
         CreateList_Head(&L, 5, filename);
         printf("█ 头插法建立单链表 L = ");
+        ListTraverse(L, PrintElem);
+    }
+    PressEnterToContinue(debug);
+
+
+    printf("CreateList_Tail \n");
+    {
+        LinkList L;
+        const char *filename = "/export/c_project/mason/structures/0204_LinkList_01/TestData_Head.txt";
+        CreateList_Tail(&L, 5, filename);
+        printf("尾插法建立单链表 L = ");
         ListTraverse(L, PrintElem);
     }
     PressEnterToContinue(debug);

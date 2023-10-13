@@ -115,11 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-68750995cf7f2adb5018.json
 			"value" : "/usr/local/clion-2022.3.3/bin/cmake/linux/x64/bin/cmake"
-=======
-			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/cmake/mac/bin/cmake"
->>>>>>> 13cd568f0ec123067d4aadabe56169f944a0f485:cmake-build-debug/.cmake/api/v1/reply/cache-v2-9f4fbc698fffb90a4a1f.json
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -131,11 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-68750995cf7f2adb5018.json
 			"value" : "/usr/local/clion-2022.3.3/bin/cmake/linux/x64/bin/cpack"
-=======
-			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/cmake/mac/bin/cpack"
->>>>>>> 13cd568f0ec123067d4aadabe56169f944a0f485:cmake-build-debug/.cmake/api/v1/reply/cache-v2-9f4fbc698fffb90a4a1f.json
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -147,11 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-68750995cf7f2adb5018.json
 			"value" : "/usr/local/clion-2022.3.3/bin/cmake/linux/x64/bin/ctest"
-=======
-			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/cmake/mac/bin/ctest"
->>>>>>> 13cd568f0ec123067d4aadabe56169f944a0f485:cmake-build-debug/.cmake/api/v1/reply/cache-v2-9f4fbc698fffb90a4a1f.json
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
@@ -539,11 +527,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-68750995cf7f2adb5018.json
 			"value" : "/usr/local/clion-2022.3.3/bin/ninja/linux/x64/ninja"
-=======
-			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/ninja/mac/ninja"
->>>>>>> 13cd568f0ec123067d4aadabe56169f944a0f485:cmake-build-debug/.cmake/api/v1/reply/cache-v2-9f4fbc698fffb90a4a1f.json
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -775,11 +759,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-<<<<<<< HEAD:cmake-build-debug/.cmake/api/v1/reply/cache-v2-68750995cf7f2adb5018.json
 			"value" : "/usr/local/clion-2022.3.3/bin/cmake/linux/x64/share/cmake-3.24"
-=======
-			"value" : "/Users/yongshi/Downloads/Tools/JetBrains/ToolBox/apps/CLion/ch-0/232.8660.186/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26"
->>>>>>> 13cd568f0ec123067d4aadabe56169f944a0f485:cmake-build-debug/.cmake/api/v1/reply/cache-v2-9f4fbc698fffb90a4a1f.json
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
