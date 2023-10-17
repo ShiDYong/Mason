@@ -31,7 +31,7 @@
 					"source" : "Status",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -41,7 +41,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"jsonFile" : "directory-structures-Debug-10b8b8aec76436658e81.json",
 					"minimumCMakeVersion" : 
@@ -64,7 +65,7 @@
 					"source" : "structures/0201_SqList",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -79,7 +80,7 @@
 					"source" : "structures/0202_Union",
 					"targetIndexes" : 
 					[
-						4
+						5
 					]
 				},
 				{
@@ -94,7 +95,7 @@
 					"source" : "structures/0203_MergeSqList",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -111,6 +112,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "structures/0204_MergeList",
+					"jsonFile" : "directory-structures.0204_MergeList-Debug-aa84e4c95d7a6618451a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "structures/0204_MergeList",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -125,7 +141,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"name" : "mason",
 					"targetIndexes" : 
@@ -134,7 +151,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -145,6 +163,13 @@
 					"id" : "LinkList::@77937bce89e55d13ab93",
 					"jsonFile" : "target-LinkList-Debug-a873dfe1e3c56f0a2050.json",
 					"name" : "LinkList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "MergeList::@03671213985778df7668",
+					"jsonFile" : "target-MergeList-Debug-cfaa77c36f7b1b4cd69c.json",
+					"name" : "MergeList",
 					"projectIndex" : 0
 				},
 				{

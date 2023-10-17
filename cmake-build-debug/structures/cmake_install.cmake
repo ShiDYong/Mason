@@ -57,3 +57,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/yongshi/Downloads/MyCode/mason/cmake-build-debug/structures/0204_LinkList_01/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/yongshi/Downloads/MyCode/mason/cmake-build-debug/structures/0204_MergeList/cmake_install.cmake")
+endif()
+

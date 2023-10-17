@@ -638,6 +638,9 @@
 		},
 		{
 			"path" : "structures/0204_LinkList_01/CMakeLists.txt"
+		},
+		{
+			"path" : "structures/0204_MergeList/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
