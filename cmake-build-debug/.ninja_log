@@ -1,0 +1,6 @@
+# ninja log v5
+1	30	1698156850979138998	structures/0206_SLinkList/CMakeFiles/SLinkList.dir/SLinkList.c.o	fb83dac18f08fab2
+0	43	1698156276224032236	Status/CMakeFiles/Scanf_lib.dir/Status.c.o	18689b6ee1fef860
+1	29	1698156850977974067	structures/0206_SLinkList/CMakeFiles/SLinkList.dir/SLinkList-main.c.o	eefbab5c48d4252a
+44	137	1698156276318922000	Status/libScanf_lib.a	a39df47cf07c8f3d
+30	64	1698156851012946406	structures/0206_SLinkList/SLinkList	ce907ce5c3efab4f
