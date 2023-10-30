@@ -227,7 +227,7 @@ Status ListDelete(DuLinkList L, int i, ElemType *e) {
     //删除带头结点的双向循环线性表L的第i个元素，i的合法值为1<=i<=表长
     //在L中确定第i个元素的位置指针p
     if (!(cur = GetElemP(L, i))) return ERROR;//p=NULL，即第i个元素不存在
-    e = cur->next;
+    *e = cur->data;
     cur->prior->next = cur->next;
     cur->next->prior = cur->prior;
     free(cur);
@@ -244,7 +244,7 @@ void ListTraverse(DuLinkList L, void(Visit)(ElemType)) {
     //确保双向循环链表存在
     if (L == NULL || L->next == L || L->prior == L) return;
     p = L->next;
-    while (p != NULL) {
+    while (p != L) {
         Visit(p->data);
         p = p->next;
     }
